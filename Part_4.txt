@@ -1,0 +1,32 @@
+# Inserting electronics product
+db.Products.insertOne({
+  ProductID: "E001",
+  Name: "Smartphone",
+  Brand: "TechCorp",
+  Price: 599.99,
+  Specifications: {
+    RAM: "8GB",
+    Storage: "128GB",
+    Battery: "4500mAh"
+  }
+});
+
+# Inserting clothing product
+db.Products.insertOne({
+  ProductID: "C001",
+  Name: "T-Shirt",
+  Size: "M",
+  Color: "Blue",
+  Material: "Cotton",
+  Price: 19.99
+});
+
+# Inserting a book
+db.Products.insertOne({
+  ProductID: "B001",
+  Title: "The Great Adventure",
+  Author: "John Doe",
+  Genre: "Fiction",
+  ISBN: "978-3-16-148410-0",
+  Price: 12.99
+});

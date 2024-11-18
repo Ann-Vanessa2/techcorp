@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "673b16a31e184adee6c220d6"
+  },
+  "ProductID": "E001",
+  "Name": "Smartphone",
+  "Brand": "TechCorp",
+  "Price": 599.99,
+  "Specifications": {
+    "RAM": "8GB",
+    "Storage": "128GB",
+    "Battery": "4500mAh"
+  }
+},
+{
+  "_id": {
+    "$oid": "673b16c21e184adee6c220d7"
+  },
+  "ProductID": "C001",
+  "Name": "T-Shirt",
+  "Size": "M",
+  "Color": "Blue",
+  "Material": "Cotton",
+  "Price": 19.99
+},
+{
+  "_id": {
+    "$oid": "673b16ca1e184adee6c220d8"
+  },
+  "ProductID": "B001",
+  "Title": "The Great Adventure",
+  "Author": "John Doe",
+  "Genre": "Fiction",
+  "ISBN": "978-3-16-148410-0",
+  "Price": 12.99
+}]
