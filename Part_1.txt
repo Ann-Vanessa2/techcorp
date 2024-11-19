@@ -1,0 +1,24 @@
+Discuss how normalization helps reduce redundancy and improve data integrity. 
+1. Normalization reduced redundancy by splitting the data into related tables 
+such that duplication of data is minimized. For example, instead of storing
+product details in multiple columns, a separate Products table can store this data.
+2. It also improves data integrity because data stored is consistent, and non-redundant,
+making it easier to access and less prone to errors. Changes made to a single piece
+of data, like the customer address, is reflected across all references to that column.
+
+Consider potential trade-offs and when denormalization might be necessary.
+1. Tradeffs
+a. Performance overhead - highly normalised databases require frequent joins between tables
+during queries, which can impact performance for complex queries or large datasets.
+Query execution times may also increase due to the need to access multiple tables.
+b. Complexity - normalized databases can become more complex to design, understand, 
+and manage, especially for very large systems.
+
+When Denormalization is Necessary
+1. When query speed is critical, such as in high-performance web applications, 
+denormalization reduces the need for joins.
+2. Denormalized tables make querying easier, reducing the need for complex SQL joins.
+3. When read operations dominate write operations, the redundancy introduced by 
+denormalization is less problematic.
+
+

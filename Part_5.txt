@@ -1,3 +1,0 @@
-Discuss how normalization helps reduce redundancy and improve data integrity. 
-Normalization reduced redundancy by splitting the data into related tables 
-such that duplication of data is minimized.
